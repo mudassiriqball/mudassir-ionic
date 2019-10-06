@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Mudassir Iqbal
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <div>
+      <div class="headingstyle">
+        Name
+      </div>
+      <h3 class="textstyle">
+        {{ user?.name}}
+      </h3>
+    </div>
+    <div>
+      <div class="headingstyle" style="margin-top: 30px;">
+        City
+      </div>
+      <h3 class="textstyle">
+        {{ user?.city}}
+      </h3>
+    </div>
+    <div>
+      <div class="headingstyle" style="margin-top: 30px;">
+        Interests
+      </div>
+      <h3 class="textstyle">
+        {{ user?.interests.toString()}}
+      </h3>
+    </div>
+  </div>
+</ion-content>
